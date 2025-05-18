@@ -36,9 +36,6 @@ job_template = {
 
 #logo_url company_name
 
-with open("data.json", "r", encoding = "utf-8") as file:
-    data = json.loads(file.read())
-
 def parse_json_pages(data):
 
     for i in data["results"]:
@@ -73,7 +70,12 @@ def parse_json(data):
 
     return data
 
-data = parse_json(data)
+if __name__ == '__main__':
 
-for line in data:
-    print(line, end = "\n\n")
+    with open("data.json", "r", encoding = "utf-8") as file:
+        data = file.read()
+
+    data = parse_json(json.loads(data))
+
+    for line in data:
+        print(line, end = "\n\n")

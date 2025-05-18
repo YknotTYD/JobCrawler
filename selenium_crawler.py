@@ -7,6 +7,7 @@ import brotli
 import json
 
 import time
+import parse_json
 
 ua = UserAgent()
 options = webdriver.ChromeOptions()
@@ -35,17 +36,12 @@ for r in driver.requests:
 
     if r.response and "search-dsn.jobteaser.com/1/indexes" not in r.url:
         continue
+
     body = r.response.body
-    encoding = r.response.headers.get('Content-Encoding', '').lower()
-
-    if 'br' in encoding:
-        body = brotli.decompress(body)
-    elif 'gzip' in encoding:
-        body = gzip.decompress(body)
-
+    body = gzip.decompress(body)
     text = body.decode('utf-8', errors='ignore')
     data = json.loads(text)
 
-    print(json.dumps(data, indent=2))
+    print(parse_json.parse_json_pages(data))
 
 driver.quit()
