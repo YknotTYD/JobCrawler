@@ -3,7 +3,6 @@ from selenium_stealth import stealth
 from fake_useragent import UserAgent
 
 import gzip
-import brotli
 import json
 
 import time
@@ -17,7 +16,7 @@ options.add_argument("--disable-blink-features=AutomationControlled")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-infobars")
 options.add_argument("--disable-extensions")
-options.add_argument("--headless")
+#options.add_argument("--headless")
 
 driver = webdriver.Chrome(options=options)
 stealth(driver,
@@ -29,19 +28,32 @@ stealth(driver,
     fix_hairline=True,
 )
 
-driver.get("https://epitech.jobteaser.com/fr/companies/bouygues-telecom/job-offers?page=1")
-time.sleep(5)
+def load_pages(page = 1, page_count = None):
 
-for r in driver.requests:
+    if page_count is not None and page > page_count:
+        return None
 
-    if r.response and "search-dsn.jobteaser.com/1/indexes" not in r.url:
-        continue
+    url = "https://epitech.jobteaser.com/fr/companies/bouygues-telecom"
 
-    body = r.response.body
-    body = gzip.decompress(body)
-    text = body.decode('utf-8', errors='ignore')
-    data = json.loads(text)
+    driver.get(url + f"/job-offers?page={page}")
+    time.sleep(5)
 
-    print(parse_json.parse_json_pages(data))
+    for r in driver.requests:
+
+        if r.response and "search-dsn.jobteaser.com/1/indexes" not in r.url:
+            continue
+
+        body = r.response.body
+        body = gzip.decompress(body)
+        text = body.decode('utf-8', errors='ignore')
+        data = json.loads(text)
+
+        if page_count is None:
+            page_count = parse_json.parse_json_pages(data)
+
+        load_pages(page + 1, page_count)
+        return None
+
+load_pages()
 
 driver.quit()
