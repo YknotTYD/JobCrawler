@@ -1,0 +1,3000 @@
+{
+    "results": [
+        {
+            "hits": [],
+            "nbHits": 0,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 2,
+            "facets": {},
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "analytics=true&attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&clickAnalytics=true&facets=%5B%22noFacets%22%5D&page=0&optionalFilters=%5B%22contract.type.original_label%3Aalternating%3Cscore%3D2%3E%22%2C%22contract.type.original_label%3Apart_time%3Cscore%3D2%3E%22%2C%22contract.type.original_label%3Acdi%3Cscore%3D2%3E%22%2C%22contract.type.original_label%3Acdd%3Cscore%3D2%3E%22%2C%22locale%3Afr%3Cscore%3D3%3E%22%2C%22locations.city%3ANancy%20%3Cscore%3D3%3E%22%2C%22partner_school_uuids%3A8a723a3a-f801-4cf9-9f58-13d213ec090f%3Cscore%3D1%3E%22%2C%22position_category.uuid%3A8535ca80-ed9a-4d0b-9c96-d5c141203367%3Cscore%3D2%3E%22%2C%22position_category.uuid%3Addc0460c-ce0b-4d98-bc5d-d8829ff9cf11%3Cscore%3D2%3E%22%2C%22position_category.uuid%3Afbab2736-0eea-4d61-899c-161eea6a2b45%3Cscore%3D2%3E%22%2C%22position_category.uuid%3A93dcc7d4-b32e-44e1-8346-3a804067d3d0%3Cscore%3D2%3E%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)%20AND%20(publication_type.score%3A1)&hitsPerPage=2&ruleContexts=%5B%22is_logged__true%22%2C%22user_country__France%22%2C%22permalink__epitech%22%5D",
+            "index": "job_ads_of_the_week",
+            "queryID": "7779f0d960b367614181bdb5114411ed",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 5,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "getIdx": {
+                    "load": {
+                        "total": 1
+                    },
+                    "total": 2
+                },
+                "total": 5
+            },
+            "serverTimeMS": 44
+        },
+        {
+            "hits": [
+                {
+                    "activated_at": 1747526950,
+                    "candidacy_type": "EXTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "a2196c60-721c-405f-adbe-bb483fbe019a-bouygues-telecom-alternance-charge-d-etudes-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Chargé d'études F/H",
+                    "uuid": "a2196c60-721c-405f-adbe-bb483fbe019a",
+                    "objectID": "a2196c60-721c-405f-adbe-bb483fbe019a"
+                },
+                {
+                    "activated_at": 1747526945,
+                    "candidacy_type": "EXTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "5a8c4205-1c5c-49c9-8d4e-5326e7f15217-bouygues-telecom-alternance-chef-de-projet-transverse-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Chef de projet Transverse F/H",
+                    "uuid": "5a8c4205-1c5c-49c9-8d4e-5326e7f15217",
+                    "objectID": "5a8c4205-1c5c-49c9-8d4e-5326e7f15217"
+                },
+                {
+                    "activated_at": 1747440568,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "579ee8f2-6f66-421f-bc03-37268de09e98-bouygues-telecom-alternance-charge-d-etudes-qualite-voix-du-client-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Chargé d'études Qualité & Voix du client F/H",
+                    "uuid": "579ee8f2-6f66-421f-bc03-37268de09e98",
+                    "objectID": "579ee8f2-6f66-421f-bc03-37268de09e98"
+                },
+                {
+                    "activated_at": 1747267729,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "1e97f85e-694e-4182-96e9-142697787aa3-bouygues-telecom-alternance-proxy-product-owner-bot-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Proxy Product Owner Bot  F/H",
+                    "uuid": "1e97f85e-694e-4182-96e9-142697787aa3",
+                    "objectID": "1e97f85e-694e-4182-96e9-142697787aa3"
+                },
+                {
+                    "activated_at": 1747181321,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Nantes",
+                            "state": "Pays de la Loire",
+                            "country": "France",
+                            "place_id": "ChIJra6o8IHuBUgRMO0NHlI3DQQ",
+                            "sub_state": "Loire-Atlantique",
+                            "formatted_address": "Nantes, France",
+                            "latitude": 47.2184,
+                            "longitude": -1.55362
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "2210cab5-1540-4ca6-90b9-1dba1b9f8490-bouygues-telecom-apprenti-ingenieur-outils-et-si-f-h",
+                    "start_date": "0",
+                    "title": "Apprenti ingénieur outils et SI F/H",
+                    "uuid": "2210cab5-1540-4ca6-90b9-1dba1b9f8490",
+                    "objectID": "2210cab5-1540-4ca6-90b9-1dba1b9f8490"
+                },
+                {
+                    "activated_at": 1746835717,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "da435be1-9606-4213-8114-1519812057f2-bouygues-telecom-alternance-assistant-chef-de-projet-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Assistant Chef de projet F/H",
+                    "uuid": "da435be1-9606-4213-8114-1519812057f2",
+                    "objectID": "da435be1-9606-4213-8114-1519812057f2"
+                },
+                {
+                    "activated_at": 1746662649,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Nantes",
+                            "state": "Pays de la Loire",
+                            "country": "France",
+                            "place_id": "ChIJra6o8IHuBUgRMO0NHlI3DQQ",
+                            "sub_state": "Loire-Atlantique",
+                            "formatted_address": "Nantes, France",
+                            "latitude": 47.2184,
+                            "longitude": -1.55362
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "9312e2ef-7ff2-4507-9927-ae6203aa20bf-bouygues-telecom-alternance-developpeur-data-java-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Développeur Data/Java F/H",
+                    "uuid": "9312e2ef-7ff2-4507-9927-ae6203aa20bf",
+                    "objectID": "9312e2ef-7ff2-4507-9927-ae6203aa20bf"
+                },
+                {
+                    "activated_at": 1746576597,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "af2f2d99-09d7-4191-9437-bf912521b36f-bouygues-telecom-alternance-proxy-product-owner-vente-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Proxy Product Owner vente  F/H",
+                    "uuid": "af2f2d99-09d7-4191-9437-bf912521b36f",
+                    "objectID": "af2f2d99-09d7-4191-9437-bf912521b36f"
+                },
+                {
+                    "activated_at": 1746490142,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "997673c1-46ef-4d0b-871f-57efa78690c1-bouygues-telecom-alternance-architecte-fonctionnel-iam-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Architecte Fonctionnel IAM F/H",
+                    "uuid": "997673c1-46ef-4d0b-871f-57efa78690c1",
+                    "objectID": "997673c1-46ef-4d0b-871f-57efa78690c1"
+                },
+                {
+                    "activated_at": 1746489845,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "c99fa1ce-721a-4dd2-bbc8-8e19ff3f9eb6-bouygues-telecom-alternance-consultant-decisionnel-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Consultant Décisionnel F/H",
+                    "uuid": "c99fa1ce-721a-4dd2-bbc8-8e19ff3f9eb6",
+                    "objectID": "c99fa1ce-721a-4dd2-bbc8-8e19ff3f9eb6"
+                },
+                {
+                    "activated_at": 1746403750,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "6b8195d7-4b50-4aab-81bb-49baa8239f8a-bouygues-telecom-apprenti-chef-de-projets-moa-si-f-h",
+                    "start_date": "0",
+                    "title": "Apprenti chef de projets MOA SI F/H",
+                    "uuid": "6b8195d7-4b50-4aab-81bb-49baa8239f8a",
+                    "objectID": "6b8195d7-4b50-4aab-81bb-49baa8239f8a"
+                },
+                {
+                    "activated_at": 1746317320,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "9a5a33dc-27e5-40d9-ba82-acda927f6078-bouygues-telecom-apprenti-moe-exposition-api-f-h",
+                    "start_date": "0",
+                    "title": "Apprenti MOE exposition API F/H",
+                    "uuid": "9a5a33dc-27e5-40d9-ba82-acda927f6078",
+                    "objectID": "9a5a33dc-27e5-40d9-ba82-acda927f6078"
+                },
+                {
+                    "activated_at": 1745971678,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "eaddab86-407c-423c-9d78-c86dc851e580-bouygues-telecom-alternance-chef-de-projet-outils-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Chef de Projet Outils F/H",
+                    "uuid": "eaddab86-407c-423c-9d78-c86dc851e580",
+                    "objectID": "eaddab86-407c-423c-9d78-c86dc851e580"
+                },
+                {
+                    "activated_at": 1745971635,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Clichy",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJ37pZhAxv5kcRy2sTsHOkXXA",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Clichy, France",
+                            "latitude": 48.9045,
+                            "longitude": 2.30477
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "bfee1c3a-87a1-4d62-9e24-7adf29cafbc2-bouygues-telecom-alternant-developpeur-web-f-h",
+                    "start_date": "0",
+                    "title": "Alternant développeur Web F/H",
+                    "uuid": "bfee1c3a-87a1-4d62-9e24-7adf29cafbc2",
+                    "objectID": "bfee1c3a-87a1-4d62-9e24-7adf29cafbc2"
+                },
+                {
+                    "activated_at": 1745971380,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "8b686164-3487-4b80-bea3-5c51c79a30c5-bouygues-telecom-alternance-chef-de-projet-voicebot-chatbot-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Chef de Projet voicebot/chatbot F/H",
+                    "uuid": "8b686164-3487-4b80-bea3-5c51c79a30c5",
+                    "objectID": "8b686164-3487-4b80-bea3-5c51c79a30c5"
+                },
+                {
+                    "activated_at": 1745453400,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "9a134946-3267-45eb-9bbe-bf92c3ca1ee6-bouygues-telecom-alternance-analyste-tests-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Analyste Tests F/H",
+                    "uuid": "9a134946-3267-45eb-9bbe-bf92c3ca1ee6",
+                    "objectID": "9a134946-3267-45eb-9bbe-bf92c3ca1ee6"
+                },
+                {
+                    "activated_at": 1745194207,
+                    "candidacy_type": "EXTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": null,
+                            "state": null,
+                            "country": "France",
+                            "place_id": "ChIJMVd4MymgVA0R99lHx5Y__Ws",
+                            "sub_state": null,
+                            "formatted_address": "France",
+                            "latitude": 46.2276,
+                            "longitude": 2.21375
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "7d3decec-5871-459d-9f84-e787b7a05a31-bouygues-telecom-apprenti-e-charge-e-de-relation-client-f-h",
+                    "start_date": "0",
+                    "title": "Apprenti(e) Chargé(e) de Relation Client F/H",
+                    "uuid": "7d3decec-5871-459d-9f84-e787b7a05a31",
+                    "objectID": "7d3decec-5871-459d-9f84-e787b7a05a31"
+                },
+                {
+                    "activated_at": 1747440590,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Nantes",
+                            "state": "Pays de la Loire",
+                            "country": "France",
+                            "place_id": "ChIJra6o8IHuBUgRMO0NHlI3DQQ",
+                            "sub_state": "Loire-Atlantique",
+                            "formatted_address": "Nantes, France",
+                            "latitude": 47.2184,
+                            "longitude": -1.55362
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "2a198898-bbca-4932-a8df-868d42a3c129-bouygues-telecom-apprenti-chef-de-projet-telecom-f-h",
+                    "start_date": "0",
+                    "title": "Apprenti chef de projet telecom F/H",
+                    "uuid": "2a198898-bbca-4932-a8df-868d42a3c129",
+                    "objectID": "2a198898-bbca-4932-a8df-868d42a3c129"
+                },
+                {
+                    "activated_at": 1747354143,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Meudon",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJAe9HWkt65kcRgD2LaMOCCwQ",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Meudon, France",
+                            "latitude": 48.813,
+                            "longitude": 2.23847
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "7e2abec9-30f3-41b3-9c3e-8583ed2ba3f2-bouygues-telecom-alternance-chef-fe-de-produit-adjoint-f-h",
+                    "start_date": "0",
+                    "title": "Alternance - Chef(fe) de Produit Adjoint F/H",
+                    "uuid": "7e2abec9-30f3-41b3-9c3e-8583ed2ba3f2",
+                    "objectID": "7e2abec9-30f3-41b3-9c3e-8583ed2ba3f2"
+                },
+                {
+                    "activated_at": 1747354105,
+                    "candidacy_type": "INTERNAL",
+                    "company": {
+                        "id": "9c8b6f42-5374-449b-ae02-e9d46ac52f25",
+                        "name": "Bouygues Telecom",
+                        "logo_url": "https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1620/logo.png?1435825890"
+                    },
+                    "contract": {
+                        "type": {
+                            "original_label": "alternating"
+                        },
+                        "duration_min": 10,
+                        "duration_max": 12
+                    },
+                    "created_by_student_or_alumni": false,
+                    "exclusive": false,
+                    "job_with_impact": false,
+                    "locations": [
+                        {
+                            "city": "Clichy",
+                            "state": "Île-de-France",
+                            "country": "France",
+                            "place_id": "ChIJ37pZhAxv5kcRy2sTsHOkXXA",
+                            "sub_state": "Hauts-de-Seine",
+                            "formatted_address": "Clichy, France",
+                            "latitude": 48.9045,
+                            "longitude": 2.30477
+                        }
+                    ],
+                    "partner_school_uuids": [
+                        "0bfcb89a-286b-434a-a143-a13dac5e8b9e",
+                        "e7821031-2c34-4494-ab5a-703369111cb6",
+                        "d5622248-4430-4aac-b615-ba678a45846f",
+                        "ff5d11b5-7bdb-452d-87fd-eb59501f132b",
+                        "851662f6-051a-47e3-a42e-b249981e5bf0",
+                        "64fe943c-fb34-46d3-9380-844bfbe18d4b",
+                        "344141eb-95a2-415a-bdcb-3386fdce9134",
+                        "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8",
+                        "d1e0c2b9-51c7-4659-834c-6ce4921f482d",
+                        "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff",
+                        "cd622280-e1db-4859-914e-379f79a42b26",
+                        "d28ae08d-488e-4af1-a647-8315e4ec260d",
+                        "c6a83c68-1b31-418c-aee2-990d8debd1d0",
+                        "221459d1-c642-49e8-b1af-63b52105f973",
+                        "76603c90-e622-43a8-82eb-82c0665f1003",
+                        "e7e5e31f-853a-4027-95fe-23aef540daec",
+                        "ad6206e3-ea8d-4061-bdeb-e14efb87f45f",
+                        "9cd729f5-d7c6-4cd0-9246-8f82d2673318",
+                        "8a723a3a-f801-4cf9-9f58-13d213ec090f",
+                        "3a400530-32e1-4d79-9774-f5535a3f283d",
+                        "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77",
+                        "d07b5dbe-5110-46ad-b1cd-1879cf53de3b",
+                        "ffebf613-0961-44d2-bd87-f9c3b1f5ed51",
+                        "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8",
+                        "a9d538de-90e7-4bed-bbee-faa4d3d975c4",
+                        "4418c51a-2d26-428d-9ed9-198e209ce64a",
+                        "d74e8659-86f8-411e-a63b-27cb6c58f1cf",
+                        "7d7e920c-1225-4f4c-bf17-d41c642c5867",
+                        "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d",
+                        "4c9ef51e-e918-4a22-af36-2ee4a9f43513",
+                        "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5",
+                        "d8ffdf55-6301-4994-b6d4-6d66679e2417",
+                        "40599e75-a938-4a71-8da7-a0a694032629",
+                        "a91557c4-1167-4d65-824e-bb86601cd911",
+                        "c5103e1c-f019-4e03-94e2-88769dc6e128",
+                        "fbb151a0-0b03-4abf-958e-4c8bd3aedc90",
+                        "d5639460-0e59-465e-8253-f006a0d5ebac",
+                        "3512693b-d38f-472e-b046-a74aa491a218",
+                        "b739df52-a330-42e9-bd44-16371edcb22a",
+                        "9fa6462a-2a7f-43f3-819f-7854d163c5e6",
+                        "814e4776-10fa-4a48-adef-2ef29ee066d0",
+                        "89d412b1-b28c-413c-93de-0ac92818c6f2",
+                        "0f985640-ea9f-462b-b40a-493c3dc5b66d",
+                        "b4197c5f-10a8-4649-9b3d-d7cad1f178d6"
+                    ],
+                    "premium": false,
+                    "private_offer": false,
+                    "publication_type": {
+                        "score": 3,
+                        "name": "standard_credit"
+                    },
+                    "slug": "3b56f308-4602-402c-b63d-b935fd2abff4-bouygues-telecom-apprenti-e-charge-e-de-communication-externe-f-h",
+                    "start_date": "0",
+                    "title": "Apprenti(e) Chargé(e) de communication externe F/H",
+                    "uuid": "3b56f308-4602-402c-b63d-b935fd2abff4",
+                    "objectID": "3b56f308-4602-402c-b63d-b935fd2abff4"
+                }
+            ],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 4,
+            "hitsPerPage": 20,
+            "facets": {},
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "analytics=true&attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&clickAnalytics=true&facets=%5B%22noFacets%22%5D&page=0&optionalFilters=%5B%22contract.type.original_label%3Aalternating%3Cscore%3D2%3E%22%2C%22contract.type.original_label%3Apart_time%3Cscore%3D2%3E%22%2C%22contract.type.original_label%3Acdi%3Cscore%3D2%3E%22%2C%22contract.type.original_label%3Acdd%3Cscore%3D2%3E%22%2C%22locale%3Afr%3Cscore%3D3%3E%22%2C%22locations.city%3ANancy%20%3Cscore%3D3%3E%22%2C%22partner_school_uuids%3A8a723a3a-f801-4cf9-9f58-13d213ec090f%3Cscore%3D1%3E%22%2C%22position_category.uuid%3A8535ca80-ed9a-4d0b-9c96-d5c141203367%3Cscore%3D2%3E%22%2C%22position_category.uuid%3Addc0460c-ce0b-4d98-bc5d-d8829ff9cf11%3Cscore%3D2%3E%22%2C%22position_category.uuid%3Afbab2736-0eea-4d61-899c-161eea6a2b45%3Cscore%3D2%3E%22%2C%22position_category.uuid%3A93dcc7d4-b32e-44e1-8346-3a804067d3d0%3Cscore%3D2%3E%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=20&ruleContexts=%5B%22is_logged__true%22%2C%22user_country__France%22%2C%22permalink__epitech%22%5D",
+            "index": "job_ads_search",
+            "queryID": "09cd8560a9efefae907b1d065847beaf",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 5,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "afterFetch": {
+                    "format": {
+                        "total": 1
+                    },
+                    "merge": {
+                        "mergeLoop": {
+                            "total": 1
+                        },
+                        "total": 1
+                    },
+                    "total": 1
+                },
+                "extensions": 2,
+                "total": 5
+            },
+            "serverTimeMS": 51
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "candidacy_type": {
+                    "INTERNAL": 60,
+                    "EXTERNAL": 3
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22candidacy_type%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 3,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 3
+            },
+            "serverTimeMS": 55
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "company.business_type": {
+                    "large": 63
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22company.business_type%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 3,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 3
+            },
+            "serverTimeMS": 58
+        },
+        {
+            "hits": [],
+            "nbHits": 39464,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {},
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22company.id%22%5D&filters=(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 25,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 2,
+                "fetch": {
+                    "faceting": 1,
+                    "scanning": 19,
+                    "total": 22
+                },
+                "total": 25
+            },
+            "serverTimeMS": 84
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "company.sectors.codenames": {
+                    "telecoms": 63
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22company.sectors.codenames%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 3,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 3
+            },
+            "serverTimeMS": 88
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "contract.duration": {
+                    "12": 61,
+                    "6": 2
+                }
+            },
+            "facets_stats": {
+                "contract.duration": {
+                    "min": 6,
+                    "max": 12,
+                    "avg": 11,
+                    "sum": 744
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22contract.duration%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 2
+            },
+            "serverTimeMS": 91
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "contract.type.original_label": {
+                    "alternating": 61,
+                    "internship": 2
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22contract.type.original_label%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 2
+            },
+            "serverTimeMS": 94
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "created_by_student_or_alumni": {
+                    "false": 63
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22created_by_student_or_alumni%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 2
+            },
+            "serverTimeMS": 97
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {},
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22curriculum_uuids%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 2
+            },
+            "serverTimeMS": 100
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "exclusive": {
+                    "false": 63
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22exclusive%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 2
+            },
+            "serverTimeMS": 103
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "job_with_impact": {
+                    "false": 63
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22job_with_impact%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 2
+            },
+            "serverTimeMS": 106
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "locale": {
+                    "fr": 63
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22locale%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 3,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 2,
+                "total": 3
+            },
+            "serverTimeMS": 110
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "partner_school_uuids": {
+                    "0bfcb89a-286b-434a-a143-a13dac5e8b9e": 63,
+                    "0f985640-ea9f-462b-b40a-493c3dc5b66d": 63,
+                    "221459d1-c642-49e8-b1af-63b52105f973": 63,
+                    "344141eb-95a2-415a-bdcb-3386fdce9134": 63,
+                    "3512693b-d38f-472e-b046-a74aa491a218": 63,
+                    "3a400530-32e1-4d79-9774-f5535a3f283d": 63,
+                    "40599e75-a938-4a71-8da7-a0a694032629": 63,
+                    "4418c51a-2d26-428d-9ed9-198e209ce64a": 63,
+                    "4a1e30fc-c528-43d2-bb93-7a0d4c1dde2d": 63,
+                    "4c9ef51e-e918-4a22-af36-2ee4a9f43513": 63,
+                    "5e5fc2bc-4362-4a15-9e98-e7b8a40f7b77": 63,
+                    "64fe943c-fb34-46d3-9380-844bfbe18d4b": 63,
+                    "6a8975f3-d6eb-4a39-9e11-5baa9ccf4fd8": 63,
+                    "6e2b8ca2-e525-42f1-983d-2c8e9b2addd5": 63,
+                    "76603c90-e622-43a8-82eb-82c0665f1003": 63,
+                    "7d7e920c-1225-4f4c-bf17-d41c642c5867": 63,
+                    "814e4776-10fa-4a48-adef-2ef29ee066d0": 63,
+                    "851662f6-051a-47e3-a42e-b249981e5bf0": 63,
+                    "89d412b1-b28c-413c-93de-0ac92818c6f2": 63,
+                    "8a723a3a-f801-4cf9-9f58-13d213ec090f": 63,
+                    "9cd729f5-d7c6-4cd0-9246-8f82d2673318": 63,
+                    "9e5f8d6d-c5d3-4476-9b07-83fe68e6dcd8": 63,
+                    "9fa6462a-2a7f-43f3-819f-7854d163c5e6": 63,
+                    "a91557c4-1167-4d65-824e-bb86601cd911": 63,
+                    "a9d538de-90e7-4bed-bbee-faa4d3d975c4": 63,
+                    "ad6206e3-ea8d-4061-bdeb-e14efb87f45f": 63,
+                    "b4197c5f-10a8-4649-9b3d-d7cad1f178d6": 63,
+                    "b739df52-a330-42e9-bd44-16371edcb22a": 63,
+                    "c5103e1c-f019-4e03-94e2-88769dc6e128": 63,
+                    "c6a83c68-1b31-418c-aee2-990d8debd1d0": 63,
+                    "cd23dd93-6ba1-4166-91c4-9fbbc7dbb9ff": 63,
+                    "cd622280-e1db-4859-914e-379f79a42b26": 63,
+                    "d07b5dbe-5110-46ad-b1cd-1879cf53de3b": 63,
+                    "d1e0c2b9-51c7-4659-834c-6ce4921f482d": 63,
+                    "d28ae08d-488e-4af1-a647-8315e4ec260d": 63,
+                    "d5622248-4430-4aac-b615-ba678a45846f": 63,
+                    "d5639460-0e59-465e-8253-f006a0d5ebac": 63,
+                    "d74e8659-86f8-411e-a63b-27cb6c58f1cf": 63,
+                    "d8ffdf55-6301-4994-b6d4-6d66679e2417": 63,
+                    "e7821031-2c34-4494-ab5a-703369111cb6": 63,
+                    "e7e5e31f-853a-4027-95fe-23aef540daec": 63,
+                    "fbb151a0-0b03-4abf-958e-4c8bd3aedc90": 63,
+                    "ff5d11b5-7bdb-452d-87fd-eb59501f132b": 63,
+                    "ffebf613-0961-44d2-bd87-f9c3b1f5ed51": 63
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22partner_school_uuids%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 3
+            },
+            "serverTimeMS": 113
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "position_category.uuid": {
+                    "f3f9d2a0-1b7b-4cca-89b7-5b68af828c40": 15,
+                    "fbab2736-0eea-4d61-899c-161eea6a2b45": 15,
+                    "952999f4-a27f-40d7-8cd0-793bebfef325": 8,
+                    "5b32bd97-8d4f-4d30-97a4-46fcc76d8339": 6,
+                    "a493d781-1113-4e97-9718-ab2f5a40d698": 4,
+                    "202e4df7-1b2c-4283-bf2f-7d945943b42a": 2,
+                    "5d30a267-7f04-4346-9995-18cf972bc865": 2,
+                    "746c77de-5ea9-4999-946c-f4c5a44eee83": 2,
+                    "8535ca80-ed9a-4d0b-9c96-d5c141203367": 2,
+                    "b013338e-9d5e-4784-8196-02618df3d865": 2,
+                    "395aefbe-1ea1-48ba-8455-6dc4010cb9eb": 1,
+                    "6e15e854-666e-4224-ab3f-7c04766c55ee": 1,
+                    "bebf2262-4c78-4232-9f83-813bb749a847": 1,
+                    "c6a8d71a-1a9c-46a1-bf98-5b98581d5e03": 1,
+                    "ddc0460c-ce0b-4d98-bc5d-d8829ff9cf11": 1
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22position_category.uuid%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 2
+            },
+            "serverTimeMS": 116
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {},
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22activated_at%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 2
+            },
+            "serverTimeMS": 119
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {},
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22remote_type_facet%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 2
+            },
+            "serverTimeMS": 122
+        },
+        {
+            "hits": [],
+            "nbHits": 79,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "school_uuids": {
+                    "00000000-0000-0000-0000-000000000000": 63,
+                    "4c100318-ba60-4f38-af3a-90121e7a4027": 6,
+                    "cd622280-e1db-4859-914e-379f79a42b26": 4,
+                    "221459d1-c642-49e8-b1af-63b52105f973": 2,
+                    "4418c51a-2d26-428d-9ed9-198e209ce64a": 1,
+                    "8a2cf6ea-0d8d-43e3-a38f-d72b9a822a6c": 1,
+                    "8bdd4532-043f-4657-a085-bce3ee4f4fb7": 1,
+                    "d1e0c2b9-51c7-4659-834c-6ce4921f482d": 1
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22school_uuids%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 3,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 2,
+                "total": 3
+            },
+            "serverTimeMS": 126
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {},
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22publication_type.score%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 3,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 3
+            },
+            "serverTimeMS": 130
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "start_date": {
+                    "0": 63
+                }
+            },
+            "facets_stats": {
+                "start_date": {
+                    "min": 0,
+                    "max": 0,
+                    "avg": 0,
+                    "sum": 0
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22start_date%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 3,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 3
+            },
+            "serverTimeMS": 133
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "study_levels.id": {
+                    "4": 46,
+                    "2": 17
+                }
+            },
+            "facets_stats": {
+                "study_levels.id": {
+                    "min": 2,
+                    "max": 4,
+                    "avg": 3,
+                    "sum": 218
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22study_levels.id%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 3,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 3
+            },
+            "serverTimeMS": 137
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {},
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22school_tags.8a723a3a-f801-4cf9-9f58-13d213ec090f.alternative_labels%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 2
+            },
+            "serverTimeMS": 140
+        },
+        {
+            "hits": [],
+            "nbHits": 63,
+            "page": 0,
+            "nbPages": 0,
+            "hitsPerPage": 0,
+            "facets": {
+                "work_experience_code": {
+                    "young_graduate": 63
+                }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "facetsCount": true,
+                "nbHits": true,
+                "typo": true
+            },
+            "query": "",
+            "queryAfterRemoval": "",
+            "params": "attributesToHighlight=%5B%5D&attributesToRetrieve=%5B%22activated_at%22%2C%22candidacy_type%22%2C%22company.id%22%2C%22company.logo_url%22%2C%22company.name%22%2C%22contract.duration_max%22%2C%22contract.duration_min%22%2C%22contract.type.original_label%22%2C%22created_by_student_or_alumni%22%2C%22exclusive%22%2C%22job_with_impact%22%2C%22locations%22%2C%22partner_school_uuids%22%2C%22premium%22%2C%22private_offer%22%2C%22publication_type%22%2C%22slug%22%2C%22start_date%22%2C%22title%22%2C%22uuid%22%5D&facets=%5B%22work_experience_code%22%5D&filters=company.id%3A'9c8b6f42-5374-449b-ae02-e9d46ac52f25'%20AND%20(%20contract.type.original_label%3A'internship'%20OR%20contract.type.original_label%3A'alternating'%20OR%20contract.type.original_label%3A'cdd'%20OR%20contract.type.original_label%3A'cdi'%20OR%20contract.type.original_label%3A'graduate_program'%20OR%20contract.type.original_label%3A'vie'%20OR%20contract.type.original_label%3A'part_time'%20OR%20contract.type.original_label%3A'thesis'%20OR%20contract.type.original_label%3A'apprenticeship'%20OR%20contract.type.original_label%3A'freelance'%20OR%20contract.type.original_label%3A'training_contract'%20)%20AND%20(%20curriculum_uuids%3A'17944ffa-f578-43a6-9717-66708a11d874'%20OR%20curriculum_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20NOT%20study_levels.id%3A1%20AND%20(%20school_uuids%3A'8a723a3a-f801-4cf9-9f58-13d213ec090f'%20OR%20school_uuids%3A'00000000-0000-0000-0000-000000000000'%20)%20AND%20(%20study_levels.id%3A'6'%20OR%20study_levels.id%3A'2'%20OR%20study_levels.id%3A'3'%20OR%20study_levels.id%3A'4'%20OR%20study_levels.id%3A'5'%20)&hitsPerPage=0",
+            "index": "job_ads_search",
+            "renderingContent": {
+                "facetOrdering": {
+                    "facets": {
+                        "order": [
+                            "company.business_type"
+                        ]
+                    },
+                    "values": {
+                        "company.business_type": {
+                            "sortRemainingBy": "count"
+                        }
+                    }
+                }
+            },
+            "extensions": {
+                "queryCategorization": {}
+            },
+            "processingTimeMS": 2,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 27
+                },
+                "extensions": 1,
+                "total": 2
+            },
+            "serverTimeMS": 143
+        }
+    ]
+}
